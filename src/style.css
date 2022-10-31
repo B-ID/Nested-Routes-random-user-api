@@ -1,0 +1,85 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar__links {
+  position: sticky;
+  z-index: 100;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  list-style: none;
+  box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.navbar__links a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar__links div {
+  padding: 8px 20px;
+}
+
+.navbar__links div:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.page__button {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.page__button:hover,
+.prevButton:hover,
+.nextButton:hover {
+  background-color: rgb(172, 171, 171);
+}
+
+.prevButton,
+.nextButton {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.userData {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: all 0.05s ease-in-out;
+}
+
+.userData:hover {
+  transform: scale(1.02);
+}
+
+.userData img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid gray;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.error__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
